@@ -162,7 +162,7 @@ function draw() {
     rect(bigGrid2X, bigGridY, 6 * squareSize, 10 * squareSize);
 
     let fullWidth = (bigGrid2X - smallGridX) + 6 * squareSize;
-    let reducedWidth = fullWidth * 0.6;
+    let reducedWidth = fullWidth;
     let xOffset = (fullWidth - reducedWidth) / 2;
 
     fill(hr*hrScale, min*minScale, sec*secScale);
