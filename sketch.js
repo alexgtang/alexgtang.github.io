@@ -68,6 +68,7 @@ function setup() {
         fillSecondSquare(secs[i]);
     }
     previousSec = currentSecond;
+    console.log(currentMinute);
 }
 
 // draw() is called 60 times per second
@@ -83,6 +84,7 @@ function draw() {
         if (sec === 0) {
             secondsGrid = Array(60).fill(false);
             shuffle(secs);
+            console.log(min);
         }
     }
 
